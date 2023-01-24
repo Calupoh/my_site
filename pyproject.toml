@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_site_calupoh"
+version = "0.0.0"
+authors = [
+    {name="Marco A Moreno H"},
+]
+description = "Mi paguina personal"
+requires-python = ">=3.10"
+dependencies = [
+    "flask",
+    "gunicorn"
+]
+
+[project.urls]
+"Home Page" = "https://github.com/Calupoh/my_site"
