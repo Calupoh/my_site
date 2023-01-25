@@ -32,9 +32,9 @@ def create_app(test_config=None, invers_prox=False):
     except OSError:
         pass
 
-    # a simple page that says hello
-    @app.route('/')
-    def home():
-        return 'Holi, aun toy chiquito'
+    # paginas
+    from . import inicio
+    app.register_blueprint(inicio.bp)
+    app.add_url_rule('/', endpoint='index')
 
     return app
