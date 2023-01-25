@@ -4,8 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-gunicorn = "*"
+my-site = {editable = true, path = "."}
 
 [dev-packages]
 
