@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
-        <title>{% block tittke %}{% endblock tittke %} - Calupoh</title>
+        <title>{% block title %}{% endblock title %} - Calupoh</title>
     </head>
     <body>
         <nav>
@@ -12,7 +12,7 @@
             <li><a href="{{ url_for('index') }}">inicio</a></li>
             </ul>
         </nav>
-        <section class="contenido">
+        <section>
             <header>
                 {% block header %}{% endblock header %}
             </header>

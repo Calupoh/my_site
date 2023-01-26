@@ -1,0 +1,45 @@
+html{
+    background: rgb(34, 30, 44);
+    color: aliceblue;
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    float: left;
+    background-color: rgb(19, 14, 31);
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    font-size: 1.5em;
+}
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    color: rgb(255, 166, 33);
+}
+section {
+    margin: 1% 8%;
+    padding: 0px;
+    border: 3px solid rgb(49, 40, 71);
+    border-radius: 5px;
+}
+.encabezado {
+    background-color: rgb(49, 40, 71);
+    padding: 10px;
+    margin: 0%;
+}
+.contenido {
+    margin: 10px 15px;
+}
