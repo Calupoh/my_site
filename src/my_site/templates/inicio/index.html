@@ -1,13 +1,18 @@
 {% extends "base.html" %}
 
-{% block header %}
-    <h1 class="encabezado">
-        {% block title %}
-
-        {% endblock title %}
-    </h1>
-{% endblock header %}
-
 {% block content %}
-    <p class="contenido">toy creciendo</p>
+<section>
+        <h1 class="encabezado">
+            {% block title %}
+                Me Presento
+            {% endblock title %}
+        </h1>
+        <p class="contenido">
+            Me llamo Marco A Moreno H. Soy un entuciasta de la tecnología y me encanta aprender cosas nuevas.
+        </p>
+        <p class="contenido">
+            Quiero compartir un poco de lo que me gusta, lo que sé y lo que hago en esta pagina.
+            La misma es un proyecto, construida de ceros con Python, Flask, Jinja, etc.
+        </p>
+    </section>
 {% endblock content %}

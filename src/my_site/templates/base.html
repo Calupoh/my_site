@@ -12,14 +12,11 @@
             <li><a href="{{ url_for('index') }}">inicio</a></li>
             </ul>
         </nav>
-        <section>
-            <header>
-                {% block header %}{% endblock header %}
-            </header>
+        <div>
             {% for message in get_flashed_messages() %}
                 <div class="flash">{{ message }}</div>
             {% endfor %}
             {% block content %}{% endblock content %}
-        </section>
+        </div>
     </body>
 </html>

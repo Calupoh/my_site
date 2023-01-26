@@ -1,4 +1,5 @@
 html{
+    font-family:  sans-serif;
     background: rgb(34, 30, 44);
     color: aliceblue;
 }
@@ -30,7 +31,7 @@ a:hover {
     color: rgb(255, 166, 33);
 }
 section {
-    margin: 1% 8%;
+    margin: 2% 8%;
     padding: 0px;
     border: 3px solid rgb(49, 40, 71);
     border-radius: 5px;
@@ -41,5 +42,7 @@ section {
     margin: 0%;
 }
 .contenido {
-    margin: 10px 15px;
+    margin: 10px 10px;
+    font-size: large;
+    text-align: justify;
 }
